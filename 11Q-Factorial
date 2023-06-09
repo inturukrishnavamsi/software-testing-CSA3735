@@ -1,0 +1,18 @@
+package hi;
+import java.util.Scanner;
+public class factorial {
+	public static void main (String[] args)
+	{
+		int n;
+	   long factorial=1;
+		Scanner a= new Scanner(System.in);
+		System.out.print(" enter the number ");
+		n=a.nextInt();
+		for(int i=1;i<=n;++i)
+		{
+			factorial=factorial*i;
+		}
+		System.out.println(factorial);
+	}
+
+}
